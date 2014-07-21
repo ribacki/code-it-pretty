@@ -35,7 +35,11 @@
 
    <Content type="html"><![CDATA[
      <style>
-       body { overflow: hidden; }
+       body {
+       overflow: hidden;
+       background: none transparent;
+        }
+        
        #slideshow { position: relative; }
        #slideshow > a { position: absolute; }
        #slideshow img {
